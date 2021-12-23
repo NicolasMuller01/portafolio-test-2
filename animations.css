@@ -1,0 +1,31 @@
+@keyframes border{
+    0%{
+        
+    }
+
+    30%{
+        border-right: 1px solid #F21616;
+    }
+
+    60%{
+        border-top: 1px solid #F21616;
+    }
+
+    90%{
+        border-left: 3px solid #F21616;
+    }
+}
+
+@keyframes animar{
+    0%{-webkit-transform:translate(0px,0px);}
+    10%{-webkit-transform:translate(0px,0px);}
+    20%{-webkit-transform:translate(5px,0px);}
+    30%{-webkit-transform:translate(0px,0px);}
+    40%{-webkit-transform:translate(0px,0px);}
+    50%{-webkit-transform:translate(5px,0px);}
+    60%{-webkit-transform:translate(0px,0px);}
+    70%{-webkit-transform:translate(0px,0px);}
+    80%{-webkit-transform:translate(5px,0px);}
+    90%{-webkit-transform:translate(0px,0px);}
+    100%{-webkit-transform:translate(0px,0px);}
+}

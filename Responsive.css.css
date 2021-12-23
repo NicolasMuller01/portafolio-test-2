@@ -1,0 +1,240 @@
+/*Celulares vertical*/
+@media (max-width:766px){ 
+
+    /* header */
+    .nav{
+        height: 100%;
+        width: 95%;
+        margin: auto;       
+    }
+
+    .nav_contenedor_lista{
+        display: none;
+    }
+    .nav_contenedor_logo{
+        display: none;
+    }
+
+    .contenedor_menu-burger{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+    }
+    /*sobre mi*/
+    .main_sobremi{
+        margin: auto;
+        height: 100vh;
+        width: 90%;
+    }
+
+    .main_sobre_mi_contenedor{
+        margin: auto;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_sobre_mi_contenedor-imagen{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .main_sobre_mi_contenedor-imagen-yo{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        transition: 1s ease-in;
+    }
+
+    .main_sobre_mi_contenedor-redes{
+        width: 100%;
+        text-align: center;
+    }
+
+    .main_sobre_mi_contenedor-redes-a{
+        display:inline;
+        padding-top: 10%;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+    .main_sobre_mi_contenedor-redes-a-i{
+        display: flex;
+        gap: 10px;
+    }
+
+    h1{
+        font-size: 3em;
+        color: #f7ebe8;
+        font-weight: 300;
+    }
+
+    .main_contenedor_desc{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /*habilidades*/
+    .main_habilidades{
+        height: 100vh;
+        width: 95%;
+        margin: auto;
+    }
+
+    .main_habilidades-contenedor-iconos-i{
+        font-size: 50px;
+        color: #f7ebe8; 
+        height: 50px;
+        width: 50px;
+        padding: 50px;
+        border-radius: .3em;
+        box-shadow:10px 10px 30px rgba(0,0,0,0.1);
+    }
+
+    /* proyectos */
+    .main_proyectos{
+        height: 100%;
+        width: 95%;
+        margin:auto;
+    }
+
+    .azul,
+    .amarillo,
+    .verde{
+        height: 200px;
+        width: 200px;
+        box-shadow:10px 10px 30px rgba(0,0,0,0.1);
+        transition: 1s ease;
+        opacity: 0.1;
+    }
+
+    .galeria-p{
+        font-size: 0.5em;
+    }
+
+    /*footer*/
+    .footer_contenedor-contacto{
+        flex-direction: column;
+    }
+
+    .contactolinks-p{
+        margin-bottom: 0;
+    }
+
+    .footer_contenedor-contacto-redes-iconos{
+        margin: auto;
+        margin-top: 10px;
+    }
+ }
+
+/*Celulares horizontal y tablets vertical*/
+@media (min-width:767px) and (max-width:1099px){
+    .nav{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+            
+    }
+    .main_sobre_mi_contenedor{
+        margin: auto;
+        height: 100vh;
+        width: 90%;
+    }
+    .main_habilidades{
+        height: 100vh;
+        width: 90%;
+        margin: auto;
+    }
+    .main_proyectos{
+        height: 100%;
+        width: 90%;
+        margin:auto;
+    }
+
+    .nav_contenedor_lista{
+        display: none;
+    }
+    .nav_contenedor_logo{
+        display: none;
+    }
+
+    .contenedor_menu-burger{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+    }
+}
+
+/*escritorios normales y tablets horizontal*/
+@media (min-width:1100px) and (max-width:1399px){
+    .nav{
+        height: 100%;
+        width: 75%;
+        margin: auto;
+            
+    }
+    .main_sobre_mi_contenedor{
+        margin: auto;
+        height: 100vh;
+        width: 75%;
+    }
+    .main_habilidades{
+        height: 100vh;
+        width: 75%;
+        margin: auto;
+    }
+    .main_proyectos{
+        height: 100%;
+        width: 75%;
+        margin:auto;
+    }
+
+    .nav_contenedor_logo{
+        width: 33,3%;
+        height: 100%;
+    }
+}
+
+
+/*escritorios muy grandes*/
+@media (min-width:1400px){
+    .nav{
+        height: 100%;
+        width: 60%;
+        margin: auto;
+            
+    }
+    .main_sobre_mi_contenedor{
+        margin: auto;
+        height: 100vh;
+        width: 60%;
+    }
+    .main_habilidades{
+        height: 100vh;
+        width: 60%;
+        margin: auto;
+    }
+    .main_proyectos{
+        height: 100%;
+        width: 60%;
+        margin:auto;
+    }
+
+    .nav_contenedor_logo{
+        width: 33,3%;
+        height: 100%;
+    }
+}
